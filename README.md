@@ -45,10 +45,7 @@ A function is created to calculate molecular weight, logP, number of H donor and
 ![DATA processing](https://user-images.githubusercontent.com/71454551/100385591-12bc2c80-3049-11eb-9841-c527f83ba757.png)
 
 
-##### Molecular Descriptors
-The molecular descriptor is the final result of a logic and mathematical procedure which transforms chemical information encoded within a symbolic representation of a molecule into a useful number or the result of some standardized experiment.Canonical smiles present in dataset is used to calculate molecular descriptors.
 
-Molecular descriptor and Fingerprint is calculated using paDEL software( PaDEL-Descriptor is a software for calculating molecular descriptors and fingerprints. The software currently calculates 797 descriptors (663 1D, 2D descriptors, and 134 3D descriptors) and 10 types of fingerprints. These descriptors and fingerprints are calculated mainly using The Chemistry Development Kit)
 
 
 
