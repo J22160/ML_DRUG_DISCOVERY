@@ -23,6 +23,9 @@ A function is created to label the molecules present in dataset.
 
 ##### Converting IC50 values to pIC50
 The nature of potency values is logarithmic.If you look at dose-response curves, they are sigmoidal when you plot them in logarithmic space.
+
+![DRC](https://user-images.githubusercontent.com/71454551/100385047-96751980-3047-11eb-84bf-5e44fd29dbb2.png)
+
 Using pIC50 is the proper way to think about the data.
 If your potency goes down because you've gone from micromolar to nanomolar, that’s an exponential change, not a linear change.
 pIC50 is really the right way to think about potency of compounds. A function is created to convert IC50 values to logarithmic values.
