@@ -16,6 +16,16 @@ The dataset is comprised of compounds that have been biologically tested for the
 
 ![DATA PREP](https://user-images.githubusercontent.com/71454551/100384002-1a79d200-3045-11eb-9198-35bc75cbb41a.png)
 
+###### Labeling the compounds as Active/Inactive/Intermediate
 Compunds are being labeled(Active\Inactive\Intermediate) based on their potency value (IC50 is half maximal Inhibitory concentration. Its is the most widely used and informative measure of a drugs efficacy. It indicates how much drug is needed to inhibit a biological process by half, thus providing a measure of potency of an antagonist drug in pharmacological research.) 
 compounds having values < 1000 nM will be considered active , Those greater than 10000 nM will be considered to be inactive. 
+A function is created to label the molecules present in dataset.
+
+##### Converting IC50 values to pIC50
+The nature of potency values is logarithmic.If you look at dose-response curves, they are sigmoidal when you plot them in logarithmic space.
+Using pIC50 is the proper way to think about the data.
+If your potency goes down because you've gone from micromolar to nanomolar, that’s an exponential change, not a linear change.
+pIC50 is really the right way to think about potency of compounds. A function is created to convert IC50 values to logarithmic values.
+
+
 
