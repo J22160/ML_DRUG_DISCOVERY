@@ -31,6 +31,16 @@ If your potency goes down because you've gone from micromolar to nanomolar, that
 pIC50 is really the right way to think about potency of compounds. A function is created to convert IC50 values to logarithmic values.
 
 
+## "Lipinski Rule of Five"
+Lipinski rule of 5 helps in distinguishing between drug like and non drug like molecules. It predicts high probability of success or failure due to drug likeness for molecules complying with 2 or more of the following rules
+Molecular mass less than 500 Dalton
+High lipophilicity (expressed as LogP less than 5) Less than 5
+Hydrogen bond donors Less than 10 
+Hydrogen bond acceptors Molar refractivity should be between 40-130
+
+lets define a function Lipinski to calculate molecular weight, logP, number of H donor and number of H acceptor.
+
+
 
 
 
