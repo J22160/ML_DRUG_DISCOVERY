@@ -46,7 +46,8 @@ Score = 0.767
 
 ### Predicted vs Experimented pIC50 values:
 
-![Expermented_vs_predicted_pIC50](https://user-images.githubusercontent.com/71454551/100388948-08eaf700-3052-11eb-99ee-77f03bc5c71b.png)
+
+
 
 
 
