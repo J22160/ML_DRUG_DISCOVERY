@@ -33,9 +33,9 @@ pIC50 is really the right way to think about potency of compounds. A function is
 
  ## Training model :
 
-features = Molecular Fingerprint(calculated using paDEL for all molecules present in Dataset)
-label= pIC50 values
-model= Random Forest regressor 
+###### features = Molecular Fingerprint(calculated using paDEL for all molecules present in Dataset)
+###### label= pIC50 values
+###### model= Random Forest regressor 
 
 ![DATA processing](https://user-images.githubusercontent.com/71454551/100385591-12bc2c80-3049-11eb-9841-c527f83ba757.png)
 
