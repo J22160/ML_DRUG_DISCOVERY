@@ -42,10 +42,9 @@ pIC50 is really the right way to think about potency of compounds. A function is
 
 ### Model Evaluation :
 
-Score = 0.767
-
-### Predicted vs Experimented pIC50 values:
-
+r^ score = 0.77
+Difference between predicted and actual value is not very large !!!
+It's a good score !! (specially when you have molecular fingerprint as your features)
 
 
 
