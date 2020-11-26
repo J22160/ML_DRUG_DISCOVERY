@@ -41,6 +41,8 @@ Lipinski rule of 5 helps in distinguishing between drug like and non drug like m
 
 A function is created to calculate molecular weight, logP, number of H donor and number of H acceptor.
 
+![DATA processing](https://user-images.githubusercontent.com/71454551/100385591-12bc2c80-3049-11eb-9841-c527f83ba757.png)
+
 
 
 
