@@ -40,6 +40,16 @@ pIC50 is really the right way to think about potency of compounds. A function is
 ![DATA processing](https://user-images.githubusercontent.com/71454551/100385591-12bc2c80-3049-11eb-9841-c527f83ba757.png)
 
 
+### Model Evaluation :
+
+Score = 0.767
+
+### Predicted vs Experimented pIC50 values:
+
+![Expermented_vs_predicted_pIC50](https://user-images.githubusercontent.com/71454551/100388948-08eaf700-3052-11eb-99ee-77f03bc5c71b.png)
+
+
+
 
 
 
