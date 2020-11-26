@@ -31,16 +31,11 @@ If your potency goes down because you've gone from micromolar to nanomolar, that
 pIC50 is really the right way to think about potency of compounds. A function is created to convert IC50 values to logarithmic values.
 
 
-## "Lipinski Rule of Five"
-Lipinski rule of 5 helps in distinguishing between drug like and non drug like molecules. It predicts high probability of success or failure due to drug likeness for molecules complying with 2 or more of the following rules
+ ## Training model :
 
-1. No more than 5 hydrogen bond donors (the total number of nitrogen–hydrogen and oxygen–hydrogen bonds)
-2. No more than 10 hydrogen bond acceptors (all nitrogen or oxygen atoms)
-3. A molecular mass less than 500 daltons
-4. An octanol-water partition coefficient[6] (log P) that does not exceed 5
-
-A function is created to calculate molecular weight, logP, number of H donor and number of H acceptor.
-
+features = Molecular Fingerprint(calculated using paDEL for all molecules present in Dataset)
+label= pIC50 values
+model= Random Forest regressor 
 
 ![DATA processing](https://user-images.githubusercontent.com/71454551/100385591-12bc2c80-3049-11eb-9841-c527f83ba757.png)
 
