@@ -44,8 +44,7 @@ pIC50 is really the right way to think about potency of compounds. A function is
 
 r^2 score = 0.77
 
-Difference between predicted and actual value is not very large !!!
-It's a good score !! (specially when you have molecular fingerprint as your features)
+
 
 
 
